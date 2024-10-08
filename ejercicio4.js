@@ -40,7 +40,7 @@ const totalDeporte = deporte.reduce((total, d) =>  total += d.precio,0);
 
 console.log(deporte);
 console.log(nombresDeporte);
-console.log(totalDeporte);
+console.log(`El total es ${totalDeporte}`);
 
 
 
